@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amazing-portfolio/static/css/main.30765516.css",
+    "main.js": "/amazing-portfolio/static/js/main.f2f3d328.js",
+    "static/js/787.59618271.chunk.js": "/amazing-portfolio/static/js/787.59618271.chunk.js",
+    "static/media/logo.svg": "/amazing-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/amazing-portfolio/index.html",
+    "main.30765516.css.map": "/amazing-portfolio/static/css/main.30765516.css.map",
+    "main.f2f3d328.js.map": "/amazing-portfolio/static/js/main.f2f3d328.js.map",
+    "787.59618271.chunk.js.map": "/amazing-portfolio/static/js/787.59618271.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30765516.css",
+    "static/js/main.f2f3d328.js"
+  ]
+}
