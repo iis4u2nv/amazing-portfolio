@@ -1,6 +1,6 @@
 function About () {
     return(
-        <div className="Bootstrap">
+        <div className="Bootstrap" id='about'>
         <h2>On a path for a new career hunting my passions</h2> 
         <img src="https://github.com/iis4u2nv/Portfolio/blob/main/images/amazingpicture.jpg?raw=true" className="image1" alt="amazingpicture" />            
         <p>Participating in a bootcamp represented new opportunities. It gave me the opportunity to rebuild my career, rekindle my passion, and—perhaps most importantly—rediscover my resolve.
