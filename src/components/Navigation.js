@@ -10,7 +10,6 @@ function Navigation () {
         <Link to="/project">Projects</Link>
         <Link to="/contact">Contact Me</Link>
         <Link to="/resume">Resume</Link>
-        <a href="#">Contact Me</a>
       </nav>
     )
 }
