@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 // add any other components here that you want to be able to see (with the path)
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/amazing-portfolio",
     element: <App />,
     errorElement: <h1>Some error happened</h1>,
     children: [
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       {
         path: 'portfolio',
         element: <Project />
-      }
+      },
     ]
   },
 ]);
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+  <RouterProvider router={router} />
   </React.StrictMode>
 );
 
@@ -40,3 +40,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+reportWebVitals(console.log);

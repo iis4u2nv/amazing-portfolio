@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import Project from './components/Project'
@@ -11,7 +11,6 @@ function App() {
       <Header />
   <div className="banner">    
   </div>
-  
   <Outlet />
   <Project/>
   <Resume/>

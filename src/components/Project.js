@@ -1,4 +1,4 @@
-import Navigation from "./Navigation"
+// import Navigation from "./Navigation"
 import data from '../utils/data';
 function Project () {
     const style = {
