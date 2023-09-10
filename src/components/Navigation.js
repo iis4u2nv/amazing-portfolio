@@ -1,6 +1,6 @@
 import { button } from "react-router-dom";
 
-// if you add another component to index
+// to add another component to index
 // make sure to add a button to it here
 function Navigation () {
   function about() {

@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Amazing Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Description
+
+When you load a single-page application portfolio for a web developer, you are presented with a page that has a header, a content section, and a footer. The header contains the developer's name and a navigation bar with titles for the different sections of the portfolio. The navigation bar titles are "About Me", "Portfolio", "Contact", and "Resume". The title of the current section is highlighted.
+
+When you click on a navigation title, the corresponding section is displayed below the navigation bar without the page reloading. The title of the new section is highlighted. When you load the portfolio for the first time, the "About Me" title and section are selected by default.
+
+The "About Me" section contains a recent photo or avatar of the developer and a short bio about them. The "Portfolio" section contains titled images of six of the developer's applications with links to both the deployed applications and the corresponding GitHub repositories. The "Contact" section contains a contact form with fields for a name, an email address, and a message. If you move your cursor out of one of the form fields without entering text, you will receive a notification that the field is required. If you enter text into the email address field, you will receive a notification if you have entered an invalid email address.
+
+The "Resume" section contains a link to a downloadable resume and a list of the developer's proficiencies. The footer contains text or icon links to the developer's GitHub, LinkedIn, and third-party profiles (Stack Overflow, Twitter).
 
 ## Available Scripts
 
