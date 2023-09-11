@@ -5,6 +5,7 @@ function Form() {
   // Here we set two state variables for firstName and lastName using `useState`
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
+  const [email] = useState('')
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -44,6 +45,28 @@ function Form() {
           type="text"
           placeholder="Last Name"
         />
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Email Address"
+          onBlur={handleInputBlur}
+        />
+function handleInputBlur(event) {
+  const email = event.target.value;
+
+  // Check the validity of the email address.
+  const isValidEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email);
+
+  // If the email address is invalid, display an error message.
+  if (!isValidEmail) {
+    const errorElement = document.getElementById('emailError');
+    errorElement.textContent = 'Invalid email address';
+  } else {
+    errorElement.textContent = '';
+  }
+}        
         <button type="button" onClick={handleFormSubmit}>
           Submit
         </button>
