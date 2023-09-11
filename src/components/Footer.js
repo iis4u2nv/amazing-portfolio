@@ -5,9 +5,9 @@ function Footer () {
   }
     return(
         <div>
-          <a href=''>GitHub</a>
-          <a href=''>Stackoverflow</a>
-          <a href=''>Twitter</a>
+          <a href='https://github.com/iis4u2nv'>GitHub</a>
+          <a href='https://stackoverflow.com/'>Stackoverflow</a>
+          <a href='https://twitter.com/Amazing13239381'>Twitter</a>
 
         </div>
     )
