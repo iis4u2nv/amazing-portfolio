@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 // add any other components here that you want to be able to see (with the path)
 const router = createBrowserRouter([
   {
-    path: "/amazing-portfolio",
+    path: "/",
     element: <App />,
     errorElement: <h1>Some error happened</h1>,
     children: [
