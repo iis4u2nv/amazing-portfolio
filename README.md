@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 When you load a single-page application portfolio for a web developer, you are presented with a page that has a header, a content section, and a footer. The header contains the developer's name and a navigation bar with titles for the different sections of the portfolio. The navigation bar titles are "About Me", "Portfolio", "Contact", and "Resume". The title of the current section is highlighted.
@@ -75,7 +77,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+- GitHub: [iis4u2nv](https://github.com/iis4u2nv/amazing-portfolio/tree/gh-pages)
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# amazing-portfolio" 
+
+## License
+
+This challenge is licensed under the MIT License.
