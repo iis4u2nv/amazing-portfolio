@@ -6,8 +6,10 @@ function Footer () {
     return(
         <div>
           <a href='https://github.com/iis4u2nv'>GitHub</a>
+          <br></br>
           <a href='https://stackoverflow.com/'>Stackoverflow</a>
-          <a href='https://twitter.com/Amazing13239381'>Twitter</a>
+          <br></br>
+          <a href='https://twitter.com/'>Twitter</a>
 
         </div>
     )
