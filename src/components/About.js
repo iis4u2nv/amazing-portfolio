@@ -1,12 +1,20 @@
 function About () {
     return(
         <div className="Bootstrap" id='about'>
-        <h2>On a path for a new career hunting my passions</h2> 
+        <h2>A Little About Me</h2> 
         <img src="https://github.com/iis4u2nv/Portfolio/blob/main/images/amazingpicture.jpg?raw=true" className="image1" alt="amazingpicture" />            
-        <p>Participating in a bootcamp represented new opportunities. It gave me the opportunity to rebuild my career, rekindle my passion, and—perhaps most importantly—rediscover my resolve.
-        Prior to starting my bootcamp, I had been working as a title examiner for ten years. I felt like I had hit a wall.
-        I could not see where I was going to be in the next five years, But, I started thinking of a career change, and programming came across my mind as a potential path.
-        I had no programming experience, but I had something else that was just as important—grit. I took a chance and signed up for the UCF Bootcamp Full-Stack-Developer class.</p>
+        <p>
+          Transitioning from a successful 20-year career in finance and real estate, I'm now leveraging my business acumen to build user-friendly 
+          websites that convert visitors into leads and boost sales.  I'm deeply invested in understanding the online needs of businesses, 
+          especially in finance and real estate industries.
+          Recently, I completed a full-stack web development certificate program at the University of Central Florida, where I honed my skills
+          in both front-end and back-end development.  My capstone project involved building a website for connecting hikers of all backgrounds 
+          that resulted in a community engagement that celebrates the spirit of wanderlust, sharing personal journey, and inspiring others
+          to explore the boundless beauty of our planet's natural landscapes.
+          As a highly organized and resourceful problem-solver, I thrive in collaborative environments working in a team to bring projects to life.
+          I'm eager to connect with businesses looking to establish a strong online presence and leverage the power of the web to achieve their
+          growth goals. 
+        </p>
       </div>
     )
 }
