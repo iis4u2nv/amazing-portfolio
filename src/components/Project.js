@@ -12,7 +12,7 @@ function Project () {
                 <>
                 <section key={project.name}>
                     <h3>{project.name}</h3>
-                    <img src={project.src} width='300px' height='200px'/>
+                    <img src={project.src} width='300px' height='200px' alt=""/>
                     <p>Visit my website here: <a href={project.github}>Github</a> and <a href={project.url}>Deployed</a></p>
                 </section>
              </>
